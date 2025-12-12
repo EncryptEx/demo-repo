@@ -1,5 +1,13 @@
 import pandas 
 
+def main():
+    """Main function to load and analyze data."""
+    file_path = 'data.csv'  # Specify your CSV file path here
+    data = load_data(file_path)
+    analyze_data(data)
+    print("Analysis complete.")
+    return data
+
 def load_data(file_path):
     """Load data from a CSV file into a pandas DataFrame."""
     try:
