@@ -1,0 +1,6 @@
+*.csv
+nomcarpeta/*.csv
+credentials-*.json
+test.php
+
+.env
